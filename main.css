@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+#main {
+    background-color: rgb(220, 220, 220);
+    border-radius: 4px;
+    margin: 2% auto;
+    text-align: center;
+    overflow: hidden;
+    width: 98%;
+    padding-bottom: 35px;
+}
+
+@media (max-width: 460px) {
+    #main {
+        border-radius: 0;
+        margin: 0;
+        width: 100%;
+    }
+}
+
+#main #title {
+    color: rgba(0, 0, 0, 6.5);
+    font-size: 2.4em;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 3.25%;
+}
+
+#main #subHeading {
+    color: #333;
+    font-size: 1.1em;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 1.75%;
+}
+
+@media (max-width: 460px) {
+    #main #title {
+        font-size: 2em;
+        margin-top: 5%;
+    }
+
+    #main #subHeading {
+        font-size: 0.9em;
+        margin-top: 2.5%;
+    }
+}
+
+#main #img-div {
+    background-color: #fff;
+    width: 98%;
+    margin: 1% auto;
+    padding-bottom: 14px;
+}
+
+#main #img-div img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#main #img-div figcaption {
+    color: #333;
+    font-size: 1em;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 14px;
+}
+
+@media (max-width: 460px) {
+    #main #img-div {
+        margin: 4% auto;
+        width: 95%;
+        padding-bottom: 7px;
+    }
+
+    #main #img-div img {
+        max-width: 96%;
+    }
+
+    #main #img-div figcaption {
+        font-size: 0.8em;
+        margin: 7px auto;
+        width: 95%;
+    }
+}
+
+#main #tribute-info h3 {
+    color: #333;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 50px;
+}
+
+#main #tribute-info ul {
+    font-size: 1.1em;
+    font-family: 'Open Sans Condensed', sans-serif;
+    max-width: 550px;
+    margin: 40px auto;
+    text-align: left; 
+}
+
+#main #tribute-info ul li {
+    margin-top: 15px;
+}
+
+@media (max-width: 460px) {
+    #main #tribute-info h3 {
+        margin-top: 40px;
+    }
+
+    #main #tribute-info ul {
+        font-size: 1em;
+        max-width: 350px;
+        margin-top: 30px;
+    }
+}
+
+#main blockquote {
+    font-size: 1.2em;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: left;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+#main blockquote cite {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+@media (max-width: 460px) {
+    #main blockquote {
+        font-size: 1em;
+        max-width: 350px;
+    }
+
+    #main #tribute-link {
+        font-size: 0.9em;
+        max-width: 350px;
+    }
+}
